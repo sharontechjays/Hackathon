@@ -1,0 +1,16 @@
+package com.techjays.hackathon.api
+
+import com.google.gson.annotations.SerializedName
+
+import java.io.Serializable
+
+open class Response : Serializable {
+
+    @SerializedName("result")
+    var responseStatus: Boolean? = null
+
+    @SerializedName("msg")
+    var responseMessage = ""
+
+    var requestType: Int? = null
+}

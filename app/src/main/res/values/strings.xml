@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hackathon</string>
+    <string name="no_internet">Oops! No Internet Connection..</string>
+</resources>
